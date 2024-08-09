@@ -13,11 +13,27 @@
 		9F021F1A2C60CA2500F05183 /* ToggleSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F021F192C60CA2500F05183 /* ToggleSample.swift */; };
 		9F021F1C2C60CDDB00F05183 /* StateArraySample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F021F1B2C60CDDB00F05183 /* StateArraySample.swift */; };
 		9F021F1E2C60D3DA00F05183 /* TextInputSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F021F1D2C60D3DA00F05183 /* TextInputSample.swift */; };
+		9F021F202C60E4E200F05183 /* KDVCalc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F021F1F2C60E4E200F05183 /* KDVCalc.swift */; };
+		9F537E302C65088E005C2D50 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 9F537E2F2C65088E005C2D50 /* Alamofire */; settings = {ATTRIBUTES = (Required, ); }; };
+		9F537E352C650951005C2D50 /* CategoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F537E342C650951005C2D50 /* CategoryList.swift */; };
 		9FE120A42C4EC4A30000FADC /* SwiftUITutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE120A32C4EC4A30000FADC /* SwiftUITutorialApp.swift */; };
 		9FE120A62C4EC4A30000FADC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE120A52C4EC4A30000FADC /* ContentView.swift */; };
 		9FE120A82C4EC4A60000FADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FE120A72C4EC4A60000FADC /* Assets.xcassets */; };
 		9FE120AB2C4EC4A60000FADC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FE120AA2C4EC4A60000FADC /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9F537E382C650AE3005C2D50 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		9F021F122C60C1C800F05183 /* SwiftUIElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIElements.swift; sourceTree = "<group>"; };
@@ -26,6 +42,8 @@
 		9F021F192C60CA2500F05183 /* ToggleSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleSample.swift; sourceTree = "<group>"; };
 		9F021F1B2C60CDDB00F05183 /* StateArraySample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateArraySample.swift; sourceTree = "<group>"; };
 		9F021F1D2C60D3DA00F05183 /* TextInputSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputSample.swift; sourceTree = "<group>"; };
+		9F021F1F2C60E4E200F05183 /* KDVCalc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KDVCalc.swift; sourceTree = "<group>"; };
+		9F537E342C650951005C2D50 /* CategoryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryList.swift; sourceTree = "<group>"; };
 		9FE120A02C4EC4A30000FADC /* SwiftUITutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FE120A32C4EC4A30000FADC /* SwiftUITutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITutorialApp.swift; sourceTree = "<group>"; };
 		9FE120A52C4EC4A30000FADC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F537E302C65088E005C2D50 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,8 +79,24 @@
 				9F021F192C60CA2500F05183 /* ToggleSample.swift */,
 				9F021F1B2C60CDDB00F05183 /* StateArraySample.swift */,
 				9F021F1D2C60D3DA00F05183 /* TextInputSample.swift */,
+				9F021F1F2C60E4E200F05183 /* KDVCalc.swift */,
 			);
 			path = StateSample;
+			sourceTree = "<group>";
+		};
+		9F537E332C6508AD005C2D50 /* AlamofireSample */ = {
+			isa = PBXGroup;
+			children = (
+				9F537E342C650951005C2D50 /* CategoryList.swift */,
+			);
+			path = AlamofireSample;
+			sourceTree = "<group>";
+		};
+		9F537E362C650A31005C2D50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		9FE120972C4EC4A30000FADC = {
@@ -69,6 +104,7 @@
 			children = (
 				9FE120A22C4EC4A30000FADC /* SwiftUITutorial */,
 				9FE120A12C4EC4A30000FADC /* Products */,
+				9F537E362C650A31005C2D50 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +119,7 @@
 		9FE120A22C4EC4A30000FADC /* SwiftUITutorial */ = {
 			isa = PBXGroup;
 			children = (
+				9F537E332C6508AD005C2D50 /* AlamofireSample */,
 				9F021F142C60C53D00F05183 /* StateSample */,
 				9F021F112C60C0FC00F05183 /* SwiftUIElements */,
 				9FE120A32C4EC4A30000FADC /* SwiftUITutorialApp.swift */,
@@ -111,12 +148,16 @@
 				9FE1209C2C4EC4A30000FADC /* Sources */,
 				9FE1209D2C4EC4A30000FADC /* Frameworks */,
 				9FE1209E2C4EC4A30000FADC /* Resources */,
+				9F537E382C650AE3005C2D50 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = SwiftUITutorial;
+			packageProductDependencies = (
+				9F537E2F2C65088E005C2D50 /* Alamofire */,
+			);
 			productName = SwiftUITutorial;
 			productReference = 9FE120A02C4EC4A30000FADC /* SwiftUITutorial.app */;
 			productType = "com.apple.product-type.application";
@@ -145,6 +186,9 @@
 				Base,
 			);
 			mainGroup = 9FE120972C4EC4A30000FADC;
+			packageReferences = (
+				9F537E2E2C65088E005C2D50 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 9FE120A12C4EC4A30000FADC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -176,7 +220,9 @@
 				9FE120A42C4EC4A30000FADC /* SwiftUITutorialApp.swift in Sources */,
 				9F021F1A2C60CA2500F05183 /* ToggleSample.swift in Sources */,
 				9F021F132C60C1C800F05183 /* SwiftUIElements.swift in Sources */,
+				9F021F202C60E4E200F05183 /* KDVCalc.swift in Sources */,
 				9F021F162C60C55A00F05183 /* OneWayBinding.swift in Sources */,
+				9F537E352C650951005C2D50 /* CategoryList.swift in Sources */,
 				9F021F1C2C60CDDB00F05183 /* StateArraySample.swift in Sources */,
 				9F021F1E2C60D3DA00F05183 /* TextInputSample.swift in Sources */,
 			);
@@ -382,6 +428,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9F537E2E2C65088E005C2D50 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9F537E2F2C65088E005C2D50 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F537E2E2C65088E005C2D50 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9FE120982C4EC4A30000FADC /* Project object */;
 }
