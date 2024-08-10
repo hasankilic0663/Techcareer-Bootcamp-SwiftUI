@@ -17,6 +17,7 @@
 		9F537E302C65088E005C2D50 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 9F537E2F2C65088E005C2D50 /* Alamofire */; settings = {ATTRIBUTES = (Required, ); }; };
 		9F537E352C650951005C2D50 /* CategoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F537E342C650951005C2D50 /* CategoryList.swift */; };
 		9F537E3A2C6636D7005C2D50 /* ToDoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F537E392C6636D7005C2D50 /* ToDoList.swift */; };
+		9F537E3C2C6653F5005C2D50 /* AddCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F537E3B2C6653F5005C2D50 /* AddCategory.swift */; };
 		9FE120A42C4EC4A30000FADC /* SwiftUITutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE120A32C4EC4A30000FADC /* SwiftUITutorialApp.swift */; };
 		9FE120A62C4EC4A30000FADC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE120A52C4EC4A30000FADC /* ContentView.swift */; };
 		9FE120A82C4EC4A60000FADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FE120A72C4EC4A60000FADC /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 		9F021F1F2C60E4E200F05183 /* KDVCalc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KDVCalc.swift; sourceTree = "<group>"; };
 		9F537E342C650951005C2D50 /* CategoryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryList.swift; sourceTree = "<group>"; };
 		9F537E392C6636D7005C2D50 /* ToDoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoList.swift; sourceTree = "<group>"; };
+		9F537E3B2C6653F5005C2D50 /* AddCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategory.swift; sourceTree = "<group>"; };
 		9FE120A02C4EC4A30000FADC /* SwiftUITutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FE120A32C4EC4A30000FADC /* SwiftUITutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITutorialApp.swift; sourceTree = "<group>"; };
 		9FE120A52C4EC4A30000FADC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 			children = (
 				9F537E342C650951005C2D50 /* CategoryList.swift */,
 				9F537E392C6636D7005C2D50 /* ToDoList.swift */,
+				9F537E3B2C6653F5005C2D50 /* AddCategory.swift */,
 			);
 			path = AlamofireSample;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 				9F537E352C650951005C2D50 /* CategoryList.swift in Sources */,
 				9F021F1C2C60CDDB00F05183 /* StateArraySample.swift in Sources */,
 				9F021F1E2C60D3DA00F05183 /* TextInputSample.swift in Sources */,
+				9F537E3C2C6653F5005C2D50 /* AddCategory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
