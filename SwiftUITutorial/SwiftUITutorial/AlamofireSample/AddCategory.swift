@@ -28,7 +28,7 @@ struct AddCategory: View {
                     "description" : description
                 ]
                 AF.request("https://northwind.now.sh/api/categories" , method: .post , parameters:  newCategory , encoding: JSONEncoding.default).responseDecodable(of : Category.self){ response in
-                    print(response.value!)
+                    print(response.value! )
                     
                 }// ben bir post işlemi atıyorum diyorum
                 //ben bu parametreleri encode et dıyorum
@@ -36,6 +36,7 @@ struct AddCategory: View {
                 Text("Add")
             }
 
+            Spacer() 
         }
 
     }

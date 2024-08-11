@@ -105,6 +105,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9F537E3D2C68D876005C2D50 /* StorageSample */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = StorageSample;
+			sourceTree = "<group>";
+		};
 		9FE120972C4EC4A30000FADC = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +132,7 @@
 		9FE120A22C4EC4A30000FADC /* SwiftUITutorial */ = {
 			isa = PBXGroup;
 			children = (
+				9F537E3D2C68D876005C2D50 /* StorageSample */,
 				9F537E332C6508AD005C2D50 /* AlamofireSample */,
 				9F021F142C60C53D00F05183 /* StateSample */,
 				9F021F112C60C0FC00F05183 /* SwiftUIElements */,

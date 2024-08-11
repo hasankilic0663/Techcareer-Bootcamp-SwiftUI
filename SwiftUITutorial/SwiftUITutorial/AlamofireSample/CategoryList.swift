@@ -13,10 +13,25 @@ struct CategoryList: View {
     @State var categories : [Category] = []
     var body: some View {
         VStack{
+            
             ForEach(categories,id:\.id){ item in
-                Text(item.name)
-                    .padding()
-                
+                HStack{
+                    Text(item.name)
+                        .padding()
+                    
+                    Button("Delete"){
+                        AF.request("https://northwind.vercel.app/api/categories/\(item.id)",method: .delete)
+                            .responseData { response in
+                                let request = AF.request("https://northwind.now.sh/api/categories")
+                                request.responseDecodable(of: [Category].self ){ response in// buna kategoriye cevır
+                                    categories = response.value ?? []
+                                    
+                                }
+
+                            }
+                    }
+                }
+               
             }
         }
         .onAppear(){
