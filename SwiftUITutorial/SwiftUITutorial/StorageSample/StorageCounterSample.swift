@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct StorageCounterSample: View {
-    @State var counter = 0
+    @State var counter = UserDefaults.standard.integer(forKey: "counter")
     
     var body: some View {
         VStack{
